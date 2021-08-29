@@ -1,5 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
+import {PostCreate} from './Components/PostCreate'
 
 export const App = () => {
-    return <div>Blog App</div>
+
+    return <div className={'container'}>
+        <h1>Post create</h1>
+        <PostCreate/>
+    </div>
 }
